@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+
+.card{
+    position: relative;
+    border-radius: 16px;
+    background-color: blueviolet;
+}
+
+.card__image{
+width: 100%;
+border-radius: 16px;
+}
+
+.card__image-wrapper{
+    width: 100%;
+    position: absolute;
+ 
+}
+
+.card__text{
+
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.card--middle{
+    position: relative;
+    border-radius: 16px;
+    background-color: blueviolet;
+}
+
+.card__image--middle{
+width: 100%;
+border-radius: 16px;
+
+}
+
+.card__image-wrapper--middle{
+    width: 100%;
+    position: absolute;
+
+}
+
+.card__text--middle{
+
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.card--last{
+    position: relative;
+    border-radius: 16px;
+    background-color: blueviolet;
+}
+
+.card__image--last{
+width: 100%;
+border-radius: 16px;
+
+}
+
+.card__image-wrapper--last{
+    width: 100%;
+    position: absolute;
+
+}
+
+.card__text--last{
+
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
